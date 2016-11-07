@@ -9,18 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>University of Edinburgh Q and A</title>
+    <title>Bare - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,412 +31,110 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
 
     <!-- Navigation -->
- 
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                    <script>
-                      (function() {
-                        var cx = '017380705880607221659:i8ul4wiy3x4';
-                        var gcse = document.createElement('script');
-                        gcse.type = 'text/javascript';
-                        gcse.async = true;
-                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                        var s = document.getElementsByTagName('script')[0];
-                        s.parentNode.insertBefore(gcse, s);
-                      })();
-                    </script>
-                    <gcse:search></gcse:search>
+    <!-- Page Content -->
+    <div class="container">
 
-                            <i class="fa fa-angle-double-down animated"></i>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>A Bootstrap Starter Template</h1>
+                <div id="accordion" role="tablist" aria-multiselectable="true">
+                  
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                      <h5 class="mb-0">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <strong>What if I don’t meet one of my conditions or requirements?</strong>
                         </a>
+                      </h5>
                     </div>
+
+                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="card-block">
+                        This really depends on the condition and how off you were from meeting it. You should contact
+                        admissions at: sciengmail@ed.ac.uk to check.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo">
+                      <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <strong>After accepting my offer what do I do?</strong>
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="card-block">
+                        If you have uploaded all the evidence that you have met the requirements, if applicable, then you
+                        shouldn’t have to do anything further.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingThree">
+                      <h5 class="mb-0">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <strong>I can’t afford to come, what can I do?</strong>
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="card-block">
+                        A lot of the internal scholarship deadlines from the University itself have passed. You should contact
+                        studentfunding@ed.ac.uk and also seek external funding.
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
             </div>
         </div>
-    </header>
+        <!-- /.row -->
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>
-                    
+    </div>
+    <!-- /.container -->
 
-                    <br><br><strong>What if I don’t meet one of my conditions or requirements?</strong>
-                    <br>
-                    This really depends on the condition and how off you were from meeting it. You should contact
-                    admissions at: sciengmail@ed.ac.uk to check.
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
 
-
-                    <br><br><strong>Can a conditional offer become unconditional?</strong>
-                    <br>
-                    Once the conditions on your offer have been met your offer becomes unconditional after you upload
-                    the relevant evidence that your conditions have been met to your application.
-
-
-                    <br><br><strong>After accepting my offer what do I do?</strong>
-                    <br>
-                    If you have uploaded all the evidence that you have met the requirements, if applicable, then you
-                    shouldn’t have to do anything further.
-
-
-                    <br><br><strong>I can’t afford to come, what can I do?</strong>
-                    <br>
-                    A lot of the internal scholarship deadlines from the University itself have passed. You should contact
-                    studentfunding@ed.ac.uk and also seek external funding.
-
-
-                    <br><br><strong>I want to study in America next year, but a lot of the semesters start in August, will I be able to attend?</strong>
-                    <br>
-                    You cannot be enrolled at two Universities at once, you should contact admissions at:
-                    sciengmail@ed.ac.uk to confirm that your degree will be completed by this point.
-
-
-                    <br><br><strong>I missed the UCAS deadline for confirming my offer, what can I do?</strong>
-                    <br>
-                    You should contact admissions immediately on +44(0)131 650 5753 to confirm.
-
-
-                    <br><br><strong>Can I defer my offer a year?</strong>
-                    <br>
-                    This is widely dependent on your course, some have a 0 tolerance policy, but some allow the
-                    possibility. You should check your course on the University website as well as contacting admissions
-                    at: sciengmail@ed.ac.uk
-
-
-                    <br><br><strong>When will I hear about my CAS number and the progress on my application?</strong>
-                    <br>
-                    If you haven’t heard back yet they are still processing your application. If you seek to find out the
-                    progress of your application, contact: immigrationcompliance@ed.ac.uk
-
-
-                    <br><br><strong>I’m looking to lease a flat/rent a room in one, what areas are best to look for flats in?</strong>
-                    <br>
-                    The main student areas are Newington, Marchmont, Bruntsfield and Quartermile. Newington is a
-                    good option if you want to be right next to campus with reasonably priced flats. Quartermile is also
-                    right next to the campus, but is a lot more expensive. Marchmont and Bruntsfield are a bit further
-                    away (10-25 minute walk depending) but are generally nicer flats than Newington.
-
-
-                    <br><br><strong>Who should I contact with questions about private accommodation?</strong>
-                    <br>
-                    The phone number and email to contact are:
-                    Tel: +44(0)131 651 2113
-                    Email: Gemma.Gilmour@ed.ac.uk
-                    Direct any queries you may have here. 
-
-
-
-                    <br><br><strong>When should I pay tuition fees?</strong>
-                    <br>
-                    You can pay before or at matriculation. The deadline is seen as the 3rd of October, but you can set up
-                    your payment plan when you arrive.
-
-
-                    <br><br><strong>Do I get a discount for paying my tuition fees all at once?</strong>
-                    <br>
-                    The answer is sadly no, there is no discount.
-
-
-                    <br><br><strong>Should I open a UK bank account?</strong>
-                    <br>
-                    Yes, it’s just a lot easier as international bank accounts can have payment fees and other
-                    complications. Santander are known to have good student accounts and there is a Santander
-                    building right on campus.
-
-
-                    <br><br><strong>What sort of laptop should I get?</strong>
-                    <br>
-                    This is completely up to personal preference. If you have concerns over work, I’ve been informed
-                    that laptops that are 10 years old are still able to run programming languages completely fine. The
-                    only other considerations are personal ones, such as how much money you’re willing to spend,
-                    whether you like to play games etc.
-
-
-                    <br><br><strong>What happens if I’m a few marks below the requirements for my ielts?</strong>
-                    <br>
-                    Unfortunately it is very unlikely that anything can be done. Meeting your ielts results is mandatory in
-                    order to come to the University.
-
-
-                    <br><br><strong>Applying for a Visa, but I haven’t heard about my accommodation so can’t put down a UK address?</strong>
-                    <br>
-                    As far as I’m aware, you don’t need a UK address in order to apply for a Visa. You should fill out this
-                    enquiry form: http://www.ed.ac.uk/international-office/immigration/enquiry-form and also contact
-                    immigrationcompliance@ed.ac.uk
-
-
-                    <br><br><strong>Are there any part-time jobs with Informatics?</strong>
-                    <br>
-                    No, the University offers a wide variety of part-time jobs via EUSA, which can be seen on their
-                    website: https://www.eusa.ed.ac.uk/jobs
-
-
-                    <br><br><strong>Are their student loans within the UK for international students?</strong>
-                    <br>
-                    As far as I’m aware you have to seek loans from within your own country.
-
-
-                    <br><br><strong>Can I take a course whilst at the University instead of taking ielts?</strong>
-                    <br>
-                    The answer is sadly no, there are some programmes like this on offer in some places, but this isn’t
-                    possible with the University at this moment.
-
-
-                    <br><br><strong>Admissions haven’t gotten back to me yet, is this normal?</strong>
-                    <br>
-                    Yes, they are dealing with 1000’s of students all with their on enquiries and it can take them some
-                    time to get back to you. I know this is annoying and hope that you can have some patience. 
-
-
-
-                    <br><br><strong>Can I pay accommodation fees in instalments?</strong>
-                    <br>
-                    Yes, if you want more information you can contact accommodation services at:
-                    accom.rentenquiries@ed.ac.uk
-
-
-                    <br><br><strong>What is the academic year for accommodation?</strong>
-                    <br>
-                    Your accommodation will be from September until just after your exams, which for most people are
-                    May. Again you can contact them for more detailed answers at: accom.allocations@ed.ac.uk
-
-
-                    <br><br><strong>Do postgraduates have a fresher’s week?</strong>
-                    <br>
-                    Yes Postgrads have what is officially called a ‘Welcome Week’ just as Undergrads are.
-
-
-                    <br><br><strong>What happens to tuition fees with EU referendum result to Brexit?</strong>
-                    <br>
-                    Information regarding this can be found at,
-                    Undergrads: http://www.ed.ac.uk/news/eu/applicants/undergraduate-applicants
-                    Postgrads: http://www.ed.ac.uk/news/eu/applicants/postgraduate-applicants
-
-
-                    <br><br><strong>What do you personally think of this accommodation?</strong>
-                    <br>
-                    I am happy to give my opinion on any accommodation you are looking into, but will stress that you
-                    are the one that knows your own budget and how much you are willing to spend on accommodation,
-                    meaning I’m reluctant to essentially decide for you.
-
-
-                    <br><br><strong>What bank is best for me to open an account with?</strong>
-                    <br>
-                    This will require personal research in order to find the bank that’s best for you.
-                    EUSA have a page dedicated to banking advice:
-                    https://www.eusa.ed.ac.uk/.../mon.../money_management/banks
-                    Another helpful sight: http://www.moneysavingexpert.com/stu.../Student-bank-account
-
-
-                    <br><br><strong>When do I find out about accommodation?</strong>
-                    <br>
-                    If you have a conditional offer, you should find out after your conditions have been met and proven
-                    to the University. Otherwise you should have already found out or finding out soon.
-                    If you’re worried at all, then contact accommodation services at: accom.allocations@ed.ac.uk
-
-
-                    <br><br><strong>Is it okay if I don’t drink at University?</strong>
-                    <br>
-                    Yes, lots of people don’t drink at Uni. I have friends that for whatever reasons, religious or the fact
-                    they just don’t like it, don’t drink. It’s still possible to have fun and even go out without drinking.
-
-
-                    <br><br><strong>How much should I spend on food a week?</strong>
-                     (Catered Halls should ignore)<br>
-                    This really depends on how much you eat and what you like to eat. A lot of students and what I
-                    personally do is do big food shops, I like doing this online with ASDA or Tesco. Especially online you
-                    can get good offers from supermarkets, I spend about £40 a food shop, which will generally last me 3
-                    weeks.
-
-
-
-                    <br><br><strong>Can we join research teams like the robot football one?</strong>
-                    <br>
-                    It’s very competitive to get on research groups such as this and would be more common for
-                    postgraduate students to be involved.
-
-
-                    <br><br><strong>When should I move to Edinburgh?</strong>
-                    <br>
-                    The recommended moving date is the 12th of September in time for Welcome Week
-
-
-                    <br><br><strong>When will I hear about accommodation after I reach my conditions?</strong>
-                    <br>
-                    Unfortunately I can’t give you a specific time-scale, but they should get back to you shortly. If you’re
-                    worried contact accommodation services at accom.allocations@ed.ac.uk
-
-
-                    <br><br><strong>Do I have to choose one of the suggested university specialist areas for my other courses?</strong>
-                    <br>
-                    No you do not
-
-
-                    <br><br><strong>Is it possible for me to change my master’s programme after the academic year begins?</strong>
-                    <br>
-                    Yes this should be fine
-
-
-                    <br><br><strong>Deadline for ielts?</strong>
-                    <br>
-                    There is no firm deadline for ielts, but you should get it done by the end of this month to sort out
-                    other aspects of coming to the Uni such as accommodation.
-                    In my first year can I take outside courses that aren’t within Informatics if I’m doing a joint
-
-
-                    <br><br><strong>degree?</strong>
-                    <br>
-                    Yes, in first year you have to make up 120 credits and most of the time you will have room for an
-                    extra 40 credits.
-
-
-                    <br><br><strong>Can I obtain my driver’s licence on a student visa?</strong>
-                    <br>
-                    You will need to contact the international office: http://www.ed.ac.uk/international-office/contactus
-                    Also you can look at these websites:
-                     First drivers license: https://www.gov.uk/apply-first-provisional-driving-licence
-                     Driving in the UK on a non-UK drivers license: https://www.gov.uk/driving-nongb-licence
-                     Exchanging a foreign driver’s license: https://www.gov.uk/exchange-foreign-driving-licence
-
-
-                    <br><br><strong>When is the accommodation deadline (postgraduate)?</strong>
-                    <br>
-                    31st of July is the official deadline for accommodation if you want a guaranteed place offered.
-
-
-                    <br><br><strong>Any accommodation for couples?</strong>
-                    <br>
-                    You can look into private accommodation offers, if you want any specific information contact
-                    accom.allocations@ed.ac.uk
-
-
-                    <br><br><strong>How long will it take the Uni to get back to me after sending my results in?</strong>
-                    <br>
-                    I can’t give a specific time for this either, they are very busy and will get back to you in time. If you
-                    are worried you can contact admissions at sciengmail@ed.ac.uk
-
-
-                    <br><br><strong>I’m short of one of my conditions by 1%, what should I do Will I be okay?</strong>
-                    <br>
-                    You should contact admissions at sciengmail@ed.ac.uk and upload your results to your application.
-                    If you have missed your condition by such a small margin then you should be okay, but you will need
-                    to check.
-
-
-                    <br><br><strong>Can I defer a year?</strong>
-                    <br>
-                    You should check your course details on the University website to see if this is a potential option for
-                    you as some degrees do not allow it. You should also contact admissions at sciengmail@ed.ac.uk
-
-
-                    <br><br><strong>Is there a monthly ticket system for transport in Edinburgh, such as the buses?</strong>
-                    <br>
-                    There is, but you will most likely not need it as most places in Edinburgh where students go are easy
-                    to walk to
-
-
-                    <br><br><strong>Are there café’s on campus?</strong>
-                    <br>
-                    There are a few University owned cafes on campus. Potterow have one, Teviot the student union
-                    have another and then there is the library café and David Hume Tower cafes.
-
-
-                    <br><br><strong>How much are laundry prices in halls?</strong>
-                    <br>
-                    It normally costs £1 to use the washing machine and £1 for the tumble dryer if you are to use it. 
-
-
-                    <br><br><strong>Is there a possibility to change degrees when I come to the Uni Would I also be able to move from a single degree to a joint or vice versa?</strong>
-                    <br>
-                    You should be able to change degrees no problem when you arrive. Similarly from switching to a
-                    joint degree or changing to a single should also be okay.
-
-
-                    <br><br><strong>Where are lectures given if not in the Forum?</strong>
-                    <br>
-                    Forest Hill is where you are going to be taught.
-
-
-
-                    <br><br><strong>Do I need to upload a copy of my ielts certificate?</strong>
-                    <br>
-                    Yes you should upload proof of your ielts certificate to your application when you are able.
-
-
-                    <br><br><strong>I was granted deferred entry, but I never requested this, what do I do?</strong>
-                    <br>
-                    This is quite a serious mistake and you should call admissions at +44(0)131 650 5753 and sort it out.
-
-
-                    <br><br><strong>I’m waiting to hear if I’m being accepted as I fell sort of my conditions, what do I do?</strong>
-                    <br>
-                    You can’t do anything apart from wait and see if you are going to be accepted unfortunately.
-
-
-                    <br><br><strong>Is there anything I can do once I am rejected from the Uni?</strong>
-                    <br>
-                    You can’t do anything else unfortunately, the decision is most likely final.
-
-
-                    <br><br><strong>I’m from Edinburgh, how likely am I to be granted university accommodation?</strong>
-                    <br>
-                    Depending on where you live you can have quite a high chance. I know several people that are from
-                    Edinburgh who stayed in halls.
-
-
-                    <br><br><strong>How long will it take for me to get my unconditional after I submit the relevant documents?</strong>
-                    <br>
-                    Unfortunately there is no telling how much time, it can be days or weeks until you hear back as
-                    admissions are very busy. If you are particularly busy you should contact admissions at
-                    sciengmail@ed.ac.uk
-
-
-                    <br><br><strong>What if I need my offer for a visa?</strong>
-                    <br>
-                    You can call them on +44(0)131 650 5753 and see if you can have the process sped up.
-
-
-                    <br><br><strong>I want to apply for a Masters Loan, but I’m not sure if I’m able to apply for one if I’m studying in Scotland?</strong>
-                    <br>
-                    You can contact the financial support team at studentfunding@ed.ac.uk to find out more information
-                    about this.
-
-                    <br><br>
-                    GENERAL INFORMATION REGARDING TURKEY:
-                    At least one conditional offer holder for 2016/17 entry domiciled in Turkey has contacted the
-                    University to advise that during/following the attempted coup, their IELTS test was cancelled and to
-                    ask if we can accept or provide an alternative means of assessing them.
-                    I have spoken to the British Council who have advised that any applicants whose test was cancelled,
-                    should have received a communication from their test centre to advise them of an alternative date
-                    and that IELTS testing in Turkey should be proceeding as normal going forward.
-                    However, if Schools are contacted by applicants who claim to have experienced difficulties accessing
-                    a test, and after asking to see the communication from the applicant’s test centre, it is deemed
-                    appropriate for us to provide support for English testing, English Language Education (ELE), as per
-                    support for Syrian applicants, have kindly agreed to offer remote testing of applicants as an alternative
-                    method of evidencing competency, provided numbers are manageable.
-                    School(s) should send ELE the following information for any applicants as appropriate:
-                    · Student name
-                    · Student UUN
-                    · Contact email address
-                    · Name of programme
-                    · Current English level, if known
-                    · English language requirements
-                    ELE will then contact the applicant to arrange for a test to be carried out.
-                    </p>
-            </div>
-        </div>
-    </section>
-
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
