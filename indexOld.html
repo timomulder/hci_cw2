@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HCI CW2</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> -->
+        <!-- <div class="container"> -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- <div class="navbar-header"> -->
+                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> -->
+                    <!-- <span class="sr-only">Toggle navigation</span> -->
+                    <!-- <span class="icon-bar"></span> -->
+                    <!-- <span class="icon-bar"></span> -->
+                    <!-- <span class="icon-bar"></span> -->
+                <!-- </button> -->
+                <!-- <a class="navbar-brand" href="#">Start Bootstrap</a> -->
+            <!-- </div> -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+                <!-- <ul class="nav navbar-nav"> -->
+                    <!-- <li> -->
+                        <!-- <a href="#">About</a> -->
+                    <!-- </li> -->
+                    <!-- <li> -->
+                        <!-- <a href="#">Services</a> -->
+                    <!-- </li> -->
+                    <!-- <li> -->
+                        <!-- <a href="#">Contact</a> -->
+                    <!-- </li> -->
+                <!-- </ul> -->
+            <!-- </div> -->
+            <!-- /.navbar-collapse -->
+        <!-- </div> -->
+        <!-- /.container -->
+    <!-- </nav> -->
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>What is your question about?</h1>
+                <div id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="card well well-md">
+
+                  <div class="card-header" role="tab" id="headingAcepAd">
+                    <h3 class="mb-0 ">
+                      <a id="master" data-toggle="collapse" data-parent="#accordion" href="#collapseAcepAd" aria-expanded="false" aria-controls="collapseAcepAd">
+                      <span class="glyphicon glyphicon-plus"></span>
+                        <strong> Acceptance and Admissions </strong>
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div id="collapseAcepAd" class="collapse" role="tabpanel" aria-labelledby="headingAcepAd">
+                    <div class="card-block">
+                     <h4> Please pick one of the following questions </h4>
+                           <div id="sub-accordion" role="tablist" aria-multiselectable="true">
+                             <div class="card well well-sm">
+                               <div class="card-header" role="tab" id="headingOne">
+                                 <h4 class="mb-0">
+                                   <a data-toggle="collapse" data-parent="#sub-accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                     <strong>What if I don’t meet one of my conditions or requirements?</strong>
+                                   </a>
+                                 </h4>
+                               </div>
+
+                               <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                 <div class="card-block">
+                                   This really depends on the condition and how off you were from meeting it. You should contact
+                                   admissions at: sciengmail@ed.ac.uk to check.
+                                 </div>
+                               </div>
+                             </div>
+
+                             <div class="card well well-sm">
+                               <div class="card-header" role="tab" id="headingTwo">
+                                 <h4 class="mb-0">
+                                   <a class="collapsed" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                     <strong>After accepting my offer what do I do?</strong>
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                 <div class="card-block">
+                                   If you have uploaded all the evidence that you have met the requirements, if applicable, then you
+                                   shouldn’t have to do anything further.
+                                 </div>
+                               </div>
+                             </div>
+
+                             <div class="card well well-sm">
+                               <div class="card-header" role="tab" id="headingThree">
+                                 <h4 class="mb-0">
+                                   <a data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                     <strong>I can’t afford to come, what can I do?</strong>
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                 <div class="card-block">
+                                   A lot of the internal scholarship deadlines from the University itself have passed. You should contact
+                                   studentfunding@ed.ac.uk and also seek external funding.
+                                 </div>
+                               </div>
+                             </div>
+
+                           </div>
+                           <h4> Is your question not here? Please fill out a form or send your question to <a href="mailto:ito@inf.ed.ac.uk">ITO</a></h4>
+                    </div>
+                  </div>
+                </div>
+
+
+                    
+                </div>
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- script to change plus into minus and vice-versa, taken from http://www.bootply.com/89084 -->
+
+
+    <script type="text/javascript">
+      $('#collapseOne').on('shown.bs.collapse', function(){
+      $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+      }).on('hidden.bs.collapse', function(){
+      $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+      });
+
+      $('#collapseTwo').on('shown.bs.collapse', function(){
+      $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+      }).on('hidden.bs.collapse', function(){
+      $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+      });
+
+      $('#collapseThree').on('shown.bs.collapse', function(){
+      $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+      }).on('hidden.bs.collapse', function(){
+      $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+      });
+
+    </script>
+   
+</body>
+
+</html>
