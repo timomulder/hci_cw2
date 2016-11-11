@@ -80,3 +80,11 @@ h4{
     font-size:25px;
  }
 }
+
+.well{
+  margin-bottom: 15px
+}
+
+body{
+  background-color: #fafafa;
+}
