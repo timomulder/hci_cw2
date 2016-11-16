@@ -111,7 +111,7 @@ body{
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px; min-width: 320px) {
   #banner2{
     display: block;
     padding: 10px;
@@ -129,5 +129,11 @@ body{
 @media (max-width: 1023px; min-width: 768px) {
   h1{
     font-size: 28px;
+  }
+}
+
+@media (max-width: 310px) {
+  h1{
+    font-size: 16px;
   }
 }
