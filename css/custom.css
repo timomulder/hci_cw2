@@ -111,15 +111,23 @@ body{
   display: none;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   #banner2{
     display: block;
-    padding: 5px;
+    padding: 10px;
   }
   h1{
     font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   #banner{
     display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  h1{
+    font-size: 28px;
   }
 }
